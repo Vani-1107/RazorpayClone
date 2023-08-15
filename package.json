@@ -1,9 +1,10 @@
 {
   "homepage":"https://vani-1107.github.io/RazorpayClone",
   "scripts": {
-    "predeploy":"npm run",
+    "predeploy":"npm start",
     "deploy":"gh-pages -d build",
-    "start": "vite"
+    "start": "vite",
+    "build":"vite build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
